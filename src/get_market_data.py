@@ -29,9 +29,7 @@ def getMarketData(api_client) -> Dict[str, Any]:
     # Inefficient Start
     # =================================================================
     print("📊 Fetching market data using inefficient individual API calls...")
-    for ticker in tickers:
-        print(f"   🔍 Fetching {ticker} ...")
-        market_data[ticker] = api_client.get_single_market_data(ticker)
+    market_data[tickers] =  market_data = api_client.get_bulk_market_data(tickers)
 
     # =================================================================
     # Inefficient END

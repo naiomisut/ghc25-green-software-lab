@@ -10,17 +10,17 @@ schedule:
 jobs:
   - name: "portfolio-risk-assessment"
     description: "Comprehensive portfolio risk analysis and VaR calculations"
-    start_time: "18:00"
+    start_time: "2:00"
     duration_hours: 1.5
 
   - name: "market-risk-analysis"
     description: "Market risk scenario analysis and stress testing"
-    start_time: "18:00"
+    start_time: "3:30"
     duration_hours: 1
 
   - name: "credit-risk-calculation"
     description: "Credit risk assessment and counterparty exposure analysis"
-    start_time: "18:00"
+    start_time: "4:30"
     duration_hours: 1.5
 
 resource_limits:
